@@ -15,5 +15,19 @@ yarn add mochawesome
 # Add package json
 cypress open
 
+# add to support index.js
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  })
+
+# # Install cypress-xpath
+yarn cypress-xpath
+
+# create repo on github
+gh repo create
+
 
 
