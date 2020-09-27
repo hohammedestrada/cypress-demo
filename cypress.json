@@ -1,0 +1,7 @@
+{
+    "baseUrl":"https://stg-lbel.tiendabelcorp.com",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 720
+}
+
