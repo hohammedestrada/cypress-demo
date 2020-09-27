@@ -29,5 +29,12 @@ yarn cypress-xpath
 # create repo on github
 gh repo create
 
+# Docker
+# Build image
+docker build -t cypress-test-image-ecommerce:1.0.0 .
+# Run container
+docker run -t cypress-test-image-ecommerce:1.0.0 .
 
+# 
+docker run -it -v $PWD:/cypress -w /cypress cypress/included:5.2.0
 
